@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Main Dark Navy Scratch Card Body -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M16,22 h76 a10,10 0,0 1,10 10 v54 a10,10 0,0 1,-10 10 h-76 a10,10 0,0 1,-10 -10 v-54 a10,10 0,0 1,10 -10 z" />
+
+    <!-- Top Header Title bar (O2 / SCRATCH CARD) -->
+    <!-- Brand / Title line 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,32 h32 v3.5 h-32 z" />
+    <!-- Brand / Subtitle line small -->
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M24,38 h18 v2.5 h-18 z" />
+
+    <!-- Top Right Gold Chip -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M72,28 h12 v10 h-12 z" />
+
+    <!-- Scratch-off Panel (Silver / Metallic Textured Box) -->
+    <path
+        android:pathData="M24,46 h60 v22 a6,6 0,0 1,-6 6 h-48 a6,6 0,0 1,-6 -6 v-22 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="24"
+                android:startY="46"
+                android:endX="84"
+                android:endY="74">
+                <item android:color="#E2E8F0" android:offset="0.0" />
+                <item android:color="#CBD5E1" android:offset="0.5" />
+                <item android:color="#94A3B8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Scratch Here texture lines inside panel -->
+    <path
+        android:strokeColor="#64748B"
+        android:strokeWidth="1"
+        android:pathData="M34,57 h40" />
+
+    <!-- Bottom Instruction text line -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M24,78 h42 v2 h-42 z" />
+</vector>

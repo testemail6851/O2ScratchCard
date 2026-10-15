@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">O2ScratchCard</string>
+
+    <string name="status_unscratched">Unscratched</string>
+    <string name="status_scratched">Scratched</string>
+    <string name="status_activated">Activated</string>
+
+    <string name="activate_title">Activate</string>
+    <string name="code_to_activate">Code to activate</string>
+    <string name="activated_code">Activated code</string>
+    <string name="verification_instruction">We\'ll verify the code with O2. This usually takes a few seconds.</string>
+    <string name="background_notice">You can leave this screen — activation will finish in the background.</string>
+    <string name="activation_failed_title">Activation failed</string>
+    <string name="activation_failed_text">The service didn\'t accept this code, so the card stays scratched but not activated. Please try again.</string>
+    <string name="try_again">Try again</string>
+    <string name="close">Close</string>
+    <string name="activating">Activating…</string>
+    <string name="code_is_activated">Code is activated</string>
+    <string name="activate_card">Activate card</string>
+
+    <string name="scratch_header_title">Scratch</string>
+    <string name="scratching">Scratching…</string>
+    <string name="card_was_scratched">Card was scratched</string>
+    <string name="scratch_to_reveal">Scratch to reveal</string>
+    <string name="revealing_code">Revealing code…</string>
+    <string name="cancels_scratching_warning">Going back now cancels scratching. The card stays unscratched.</string>
+    <string name="tap_to_scratch_instruction">Tap the button to scratch off the foil and reveal your unique code.</string>
+
+    <string name="scratch_card_header_title">Scratch Card</string>
+    <string name="clear_data">Clear data</string>
+    <string name="scratch_card">Scratch card</string>
+    <string name="already_scratched">Already scratched</string>
+    <string name="already_activated">Already activated</string>
+    <string name="scratch_first_instruction">Scratch the card first to get a code</string>
+
+    <string name="scratch_card_title">Scratch card</string>
+    <string name="active">Active</string>
+    <string name="activated">Activated</string>
+    <string name="ready_to_activate">Ready to activate</string>
+    <string name="reveal_code_instruction">Reveal the code, then activate it</string>
+    <string name="scratching_ellipsis">Scratching…</string>
+    <string name="scratch_here">Scratch here</string>
+    <string name="your_code">Your code</string>
+    <string name="current_state">Current state</string>
+    <string name="no_network">No internet connection. Please check your network.</string>
+
+    <string name="content_description_back">Navigate back</string>
+    <string name="content_description_loading">Loading</string>
+
+</resources>
